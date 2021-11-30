@@ -34,6 +34,10 @@ h4 {
   font-size: 12px;
 }
 
+.marg-left {
+  margin-left: 10px;
+}
+
 .txt-white {
   color: white;
 }
@@ -126,6 +130,10 @@ footer {
 
 .favorite-icons .far {
   display: block;
-  margin-left: 10px;
   margin-bottom: 5px;
+}
+
+.fa-play-circle {
+  font-size: 25px;
+  padding: 0px 15px;
 }
