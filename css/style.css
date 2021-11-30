@@ -38,6 +38,10 @@ h4 {
   margin-left: 10px;
 }
 
+.marg-top-20 {
+  margin-top: 20px;
+}
+
 .txt-white {
   color: white;
 }
@@ -52,6 +56,10 @@ h4 {
 
 .d-inline-b {
   display: inline-block;
+}
+
+.d-inline {
+  display: inline;
 }
 
 .btn {
@@ -136,4 +144,32 @@ footer {
 .fa-play-circle {
   font-size: 25px;
   padding: 0px 15px;
+}
+
+/* Progress Bar */
+
+.progress-bar {
+  background-color: #5a5a5a;
+  position: relative;
+  border-radius: 20px;
+  height: 5px;
+  width: 130px;
+}
+
+.reach-bar {
+  position: absolute;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #c1c1c1;
+  border-radius: 20px;
+  width: 50px;
+}
+
+.progress-bar.smaller-bar {
+  width: 80px;
+}
+
+.reach-bar.smaller-reach {
+  width: 30px;
 }

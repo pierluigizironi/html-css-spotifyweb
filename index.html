@@ -48,6 +48,7 @@
     </div>
     <footer>
         <div class="music-player d-flex">
+            <!-- Album description -->
             <div id="playing-album">
                 <img src="img/sinister.jpeg" alt="sinister album">
                 <div class="album-description txt-grey txt-small d-inline-b ">
@@ -60,17 +61,27 @@
                     <i class="far fa-folder"></i>
                 </div>
             </div>
+            <!-- Commands section -->
             <div id="commands" class="txt-white">
                 <i class="fas fa-random"></i>
                 <i class="fas fa-step-backward marg-left"></i>
                 <i class="far fa-play-circle"></i>
                 <i class="fas fa-step-forward"></i>
                 <i class="fas fa-redo marg-left"></i>
+                <div class="progress-bar marg-top-20">
+                    <div class="reach-bar"></div>
+                </div>
             </div>
+            <!-- Volume settings and streaming section -->
             <div id="volume-settings" class="txt-white">
-                <i class="fas fa-list"></i>
-                <i class="fas fa-desktop marg-left"></i>
-                <i class="fas fa-volume-up marg-left"></i>
+                <div class="d-inline">
+                    <i class="fas fa-list"></i>
+                    <i class="fas fa-desktop marg-left"></i>
+                    <i class="fas fa-volume-up marg-left"></i>
+                </div>
+                <div class="progress-bar marg-top-20 smaller-bar d-inline-b">
+                    <div class="reach-bar smaller-reach"></div>
+                </div>
             </div>
         </div>
     </footer>
