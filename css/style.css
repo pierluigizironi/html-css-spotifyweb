@@ -30,12 +30,20 @@ h2 {
 h3 {
 }
 
+h4 {
+  font-size: 12px;
+}
+
 .txt-white {
   color: white;
 }
 
 .txt-grey {
   color: #7d7f84;
+}
+
+.txt-small {
+  font-size: 12px;
 }
 
 .btn {
@@ -102,6 +110,16 @@ footer {
   padding: 0px 10px;
 }
 
+.album-description {
+  display: inline-block;
+}
+
+.album-description span {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+}
+
 #playing-album img {
-  width: 45px;
+  width: 35px;
 }
