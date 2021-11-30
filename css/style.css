@@ -1,0 +1,46 @@
+/* Generics */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+/* Sidebar */
+
+#sidebar {
+  height: 400px;
+  flex-basis: 70px;
+  background-color: #000000;
+}
+
+/* Header */
+
+header {
+  background-color: #080b12;
+  height: 100px;
+}
+
+/* Main */
+
+main {
+  height: calc(100vh - 200px);
+  background-color: #141922;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #282828;
+}
