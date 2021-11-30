@@ -15,11 +15,17 @@
   flex-direction: column;
 }
 
+/* Utilities */
+
+.txt-white {
+  color: white;
+}
+
 /* Sidebar */
 
 #sidebar {
   height: 400px;
-  flex-basis: 70px;
+  flex-basis: 50px;
   background-color: #000000;
 }
 
