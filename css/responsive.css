@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   #sidebar {
-    flex-basis: 250px;
+    flex-basis: 230px;
     align-items: flex-start;
     padding-left: 25px;
   }
@@ -29,6 +29,10 @@
 
   #utils div {
     margin-bottom: 10px;
+  }
+
+  #playlist {
+    display: block;
   }
 
   /* Fine media queries */
