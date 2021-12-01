@@ -107,13 +107,31 @@ h4 {
 
 #sidebar img {
   width: 20px;
-  display: block;
+  display: inline;
   margin: 5px;
 }
 
 #user-area #download-pic {
   width: 10px;
   margin: 10px;
+}
+
+#utils a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#utils a span {
+  display: none;
+  vertical-align: middle;
+}
+
+.big-logo {
+  display: none;
+}
+
+#sidebar .big-logo img {
+  width: 150px;
 }
 
 /* Header */
