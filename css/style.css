@@ -250,6 +250,7 @@ footer {
 
 .progress-bar.smaller-bar {
   width: 80px;
+  vertical-align: middle;
 }
 
 .reach-bar.smaller-reach {
