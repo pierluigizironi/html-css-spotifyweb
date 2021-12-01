@@ -17,7 +17,7 @@
     display: block;
   }
 
-  #utils a span {
+  a span {
     display: inline;
     font-size: 13px;
   }
@@ -33,6 +33,20 @@
 
   #playlist {
     display: block;
+  }
+
+  #user-area #download-pic {
+    width: 15px;
+    margin: 0px;
+  }
+
+  hr {
+    display: block;
+  }
+
+  #profile-area h2 {
+    display: inline-block;
+    margin-left: 10px;
   }
 
   /* Fine media queries */
