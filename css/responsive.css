@@ -1,0 +1,7 @@
+@media screen and (min-width: 769px) {
+  #sidebar {
+    flex-basis: 100px;
+  }
+
+  /* Fine media queries */
+}
