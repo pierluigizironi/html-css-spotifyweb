@@ -178,6 +178,13 @@ hr {
   font-size: 12px;
   font-weight: 600;
   overflow: auto;
+  height: 200px;
+}
+
+#playlist-title {
+  display: none;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 #playlist ul li {
@@ -185,7 +192,7 @@ hr {
   margin: 20px 0px;
 }
 
-#playlist .fas {
+#playlist-title .fas {
   font-size: 20px;
   color: black;
   background-color: #a3a3a3;
@@ -193,7 +200,7 @@ hr {
   margin-right: 10px;
 }
 
-#utils #playlist span {
+#utils #playlist-title span {
   font-size: 16px;
 }
 
