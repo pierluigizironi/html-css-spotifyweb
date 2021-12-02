@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -227,21 +227,23 @@ ul li a {
 }
 
 main img {
-  width: 230px;
+  max-width: 100%;
 }
 
 .single-album {
   flex-basis: 50%;
   margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
 }
 
 .album-name {
-  text-align: center;
   width: 90%;
 }
 
 main h1 {
   flex-basis: 100%;
+  margin-left: 10px;
 }
 
 #albums h3 {
