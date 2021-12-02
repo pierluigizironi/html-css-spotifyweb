@@ -75,3 +75,11 @@
 
   /* Fine media queries */
 }
+
+@media screen and (max-height: 400px) {
+  main {
+    height: calc(100vh + 400px);
+  }
+
+  /* Fine media queries */
+}
