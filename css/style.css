@@ -177,6 +177,7 @@ hr {
   display: none;
   font-size: 12px;
   font-weight: 600;
+  overflow: auto;
 }
 
 #playlist ul li {
@@ -256,6 +257,35 @@ ul li a {
 
 main img {
   max-width: 100%;
+  display: block;
+}
+
+.cover-album {
+  position: relative;
+}
+
+.overlay {
+  color: white;
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.cover-album .far {
+  font-size: 35px;
+}
+
+.cover-album:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+.cover-album:hover .overlay {
+  display: block;
+  filter: brightness(0.8);
+  cursor: pointer;
 }
 
 .single-album {
