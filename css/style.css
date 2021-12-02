@@ -99,6 +99,10 @@ h4 {
   border-radius: 50%;
 }
 
+a:hover {
+  filter: brightness(1.8);
+}
+
 /* Sidebar */
 
 #sidebar {
@@ -304,6 +308,15 @@ footer {
 .fa-play-circle {
   font-size: 25px;
   padding: 0px 15px;
+}
+
+.album-description a:hover {
+  filter: brightness(1.8);
+  text-decoration: underline;
+}
+
+.favorite-icons .far:hover {
+  filter: brightness(1.8);
 }
 
 /* Progress Bar */
