@@ -262,6 +262,7 @@ main img {
 
 .cover-album {
   position: relative;
+  transition: transform 1s;
 }
 
 .overlay {
@@ -280,6 +281,7 @@ main img {
 .cover-album:hover {
   filter: brightness(0.9);
   cursor: pointer;
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .cover-album:hover .overlay {
