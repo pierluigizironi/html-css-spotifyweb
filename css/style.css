@@ -249,9 +249,9 @@ ul li a {
   font-weight: 700;
 }
 
-#albums {
+.albums {
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 main img {
@@ -274,10 +274,11 @@ main h1 {
   margin-left: 10px;
 }
 
-#albums h3 {
+.container h3 {
   flex-basis: 100%;
   margin-bottom: 20px;
   margin-left: 10px;
+  flex-basis: 100%;
 }
 
 /* Footer */
