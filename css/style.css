@@ -285,6 +285,9 @@ footer {
   height: 100px;
   width: 100%;
   background-color: #282828;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 .music-player {
