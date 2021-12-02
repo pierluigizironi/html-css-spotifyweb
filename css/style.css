@@ -141,6 +141,11 @@ a:hover {
   margin: 10px;
 }
 
+#profile-area img {
+  background-color: grey;
+  border-radius: 50px;
+}
+
 a span {
   display: none;
   vertical-align: middle;
