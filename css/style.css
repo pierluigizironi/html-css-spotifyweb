@@ -277,6 +277,7 @@ main h1 {
 #albums h3 {
   flex-basis: 100%;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 /* Footer */
@@ -367,4 +368,25 @@ footer {
 
 .reach-bar.smaller-reach {
   width: 30px;
+}
+
+.pointer {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+.progress-bar .reach-bar:hover .pointer {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.reach-bar:hover {
+  background-color: #adff2f;
 }
