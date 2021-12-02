@@ -276,6 +276,11 @@ footer {
   width: 35px;
 }
 
+#commands {
+  text-align: center;
+  flex-grow: 1;
+}
+
 .favorite-icons .far {
   display: block;
   margin-bottom: 5px;
@@ -288,12 +293,12 @@ footer {
 
 /* Progress Bar */
 
-.progress-bar {
+#commands .progress-bar {
   background-color: #5a5a5a;
   position: relative;
   border-radius: 20px;
   height: 5px;
-  width: 130px;
+  min-width: 60%;
 }
 
 .reach-bar {
@@ -307,6 +312,10 @@ footer {
 }
 
 .progress-bar.smaller-bar {
+  background-color: #5a5a5a;
+  position: relative;
+  border-radius: 20px;
+  height: 5px;
   width: 80px;
   vertical-align: middle;
 }
